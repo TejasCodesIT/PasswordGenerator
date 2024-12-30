@@ -3,13 +3,14 @@ package com.test.Project.service;
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.test.Project.Repository.PasswordRepo;
 import com.test.Project.model.User;
 
 
 
-
+@Service
 public class PasswordService {
 	
 	
